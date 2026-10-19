@@ -1,0 +1,33 @@
+{
+    "TaskID": 901,
+    "DatasetName": "LausanneUrbanSoils",
+    "norm_type": "zscore",
+    "labels": {
+        "0": "ToPredict",
+        "1": "Matrix",
+        "2": "Rocks",
+        "3": "Pores"
+    },
+    "colors": {
+        "0": [
+            0,
+            0,
+            0
+        ],
+        "1": [
+            115,
+            0,
+            102
+        ],
+        "2": [
+            255,
+            255,
+            0
+        ],
+        "3": [
+            0,
+            122,
+            153
+        ]
+    }
+}

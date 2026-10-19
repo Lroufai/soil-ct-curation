@@ -1,0 +1,8 @@
+numpy>=2.0
+scipy>=1.12
+scikit-image>=0.24
+scikit-learn>=1.5
+tifffile>=2024.1
+matplotlib>=3.8
+# optional, for manual review of the annotations: napari[all]
+# tested with: numpy 2.5.4, scipy 1.18.1, scikit-image 0.26.0, scikit-learn 1.9.1, tifffile 2026.9.20, matplotlib 3.11.2, Python 3.13
