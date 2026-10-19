@@ -1,0 +1,66 @@
+{
+  "bands_calibrated": {
+    "Pores": [
+      null,
+      0.1
+    ],
+    "Matrix": [
+      0.85,
+      1.15
+    ],
+    "Rocks": [
+      1.6,
+      null
+    ]
+  },
+  "samples": {
+    "LAU-VTHE": {
+      "seed_voxels": {
+        "Matrix": 425903,
+        "Rocks": 3052,
+        "Pores": 93301
+      },
+      "annotated_fraction_of_slices": 0.398
+    },
+    "LAU-ESPM": {
+      "seed_voxels": {
+        "Matrix": 29007,
+        "Rocks": 33297,
+        "Pores": 296997
+      },
+      "annotated_fraction_of_slices": 0.274
+    },
+    "LAU-ERA": {
+      "seed_voxels": {
+        "Matrix": 307016,
+        "Rocks": 10643,
+        "Pores": 58884
+      },
+      "annotated_fraction_of_slices": 0.287
+    },
+    "LAU-OLY": {
+      "seed_voxels": {
+        "Matrix": 120976,
+        "Rocks": 101083,
+        "Pores": 121990
+      },
+      "annotated_fraction_of_slices": 0.262
+    },
+    "LAU-D2": {
+      "seed_voxels": {
+        "Matrix": 193833,
+        "Rocks": 12566,
+        "Pores": 330412
+      },
+      "annotated_fraction_of_slices": 0.41
+    },
+    "LAU-SIG": {
+      "seed_voxels": {
+        "Matrix": 183857,
+        "Rocks": 1782,
+        "Pores": 50317
+      },
+      "annotated_fraction_of_slices": 0.18
+    }
+  }
+}

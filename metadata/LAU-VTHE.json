@@ -1,0 +1,123 @@
+{
+  "identifier": "LAU-VTHE",
+  "title": "X-ray micro-CT of an urban park soil core, Vidy Theatre, Lausanne (Switzerland)",
+  "description": "Undisturbed topsoil core (0-10 cm) from a grassland in a public park, scanned by cone-beam X-ray micro-CT. 16-bit reconstruction, isotropic voxel of 20 micrometres.",
+  "keywords": [
+    "soil structure",
+    "X-ray computed tomography",
+    "urban soil",
+    "macropores",
+    "image segmentation"
+  ],
+  "creators": [
+    {
+      "name": "Intchi Roufai, Abdoul Latif",
+      "role": "sampling, image processing, curation"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Taureg, Albert",
+      "role": "DataCollector",
+      "affiliation": "EPFL, PIXE laboratory"
+    },
+    {
+      "name": "Perrenoud, Gary",
+      "role": "DataCollector",
+      "affiliation": "EPFL, PIXE laboratory"
+    }
+  ],
+  "project": "URBA-SOIL (University of Neuchatel, HEIA-FR, EPFL)",
+  "sample": {
+    "site": "Vidy Theatre",
+    "site_code": "Vthe",
+    "city": "Lausanne",
+    "country": "CH",
+    "land_use": "urban park, grassland",
+    "depth_cm": [
+      0,
+      10
+    ],
+    "core": "PVC cylinder, 5 cm diameter, 10 cm height",
+    "sampling_permit": "Service des parcs et domaines (SPADOM), City of Lausanne"
+  },
+  "acquisition": {
+    "date": "2023-05-22",
+    "facility": "EPFL, PIXE laboratory",
+    "software": "XactRevision 22.01.1 2022-03-14",
+    "tube_voltage_kV": 80.0,
+    "tube_current_uA": 250.0,
+    "source_detector_distance_mm": 704.697,
+    "source_object_distance_mm": 101.373,
+    "geometric_magnification": 6.952,
+    "n_projections": 1312,
+    "frames_averaged_per_projection": 6,
+    "reconstruction": "Filtered Backprojection (Tomography)",
+    "reconstruction_filter": "Tukey",
+    "ring_artefact_filter": true,
+    "voxel_size_mm": 0.0199957,
+    "volume_size_voxels_xyz": [
+      1650,
+      1650,
+      1900
+    ]
+  },
+  "files": {
+    "archive": "ID0267_230522_Vidy-theatre_Recon.7z",
+    "format": "TIFF, one file per slice, axis order of files = Y (vertical)",
+    "dtype": "uint16",
+    "slice_shape_px": [
+      1650,
+      1650
+    ],
+    "n_slices_full_volume": 1900,
+    "physical_size_mm": [
+      32.99,
+      32.99,
+      37.99
+    ]
+  },
+  "related_measurements": {
+    "laboratory_total_porosity_percent": 44.0,
+    "ct_void_fraction_percent_thesis": 21.33,
+    "source": "Intchi Roufai (2023), MSc thesis, University of Neuchatel, Table 11"
+  },
+  "license_proposed": "CC BY 4.0, subject to agreement of all data owners",
+  "care_principles": "No Indigenous data; public land sampled under municipal permit.",
+  "derived_data": {
+    "cutout": {
+      "slices": [
+        1577,
+        1876
+      ],
+      "crop_px": [
+        512,
+        512
+      ],
+      "position": "centre of the slice",
+      "file": "data/grayscale/LAU-VTHE.tif"
+    },
+    "grey_value_calibration": {
+      "air_filled_pores": 20350,
+      "soil_matrix": 36250,
+      "definition": "n = (grey - air) / (matrix - air)"
+    },
+    "annotations": {
+      "file": "data/annotations/LAU-VTHE.tif",
+      "slices": [
+        20,
+        80,
+        140,
+        200,
+        260
+      ],
+      "labels": {
+        "0": "ToPredict",
+        "1": "Matrix",
+        "2": "Rocks",
+        "3": "Pores"
+      },
+      "status": "seed annotations, to be reviewed in napari"
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "transfer_between_soils": {
+    "LAU-VTHE": {
+      "agreement_all_voxels": 0.9988,
+      "agreement_boundary_voxels": 0.998,
+      "pores_with": 0.1764,
+      "pores_without": 0.1758
+    },
+    "LAU-ESPM": {
+      "agreement_all_voxels": 0.9961,
+      "agreement_boundary_voxels": 0.9948,
+      "pores_with": 0.5532,
+      "pores_without": 0.5541
+    },
+    "LAU-ERA": {
+      "agreement_all_voxels": 0.9969,
+      "agreement_boundary_voxels": 0.9957,
+      "pores_with": 0.1766,
+      "pores_without": 0.1759
+    },
+    "LAU-OLY": {
+      "agreement_all_voxels": 0.9978,
+      "agreement_boundary_voxels": 0.9969,
+      "pores_with": 0.2486,
+      "pores_without": 0.2489
+    },
+    "LAU-D2": {
+      "agreement_all_voxels": 0.9982,
+      "agreement_boundary_voxels": 0.9969,
+      "pores_with": 0.4144,
+      "pores_without": 0.4141
+    },
+    "LAU-SIG": {
+      "agreement_all_voxels": 0.9984,
+      "agreement_boundary_voxels": 0.998,
+      "pores_with": 0.171,
+      "pores_without": 0.1716
+    }
+  },
+  "volume_fractions": {
+    "LAU-VTHE": {
+      "matrix": 0.7834,
+      "rocks": 0.0282,
+      "pores": 0.1884,
+      "pores_min_max_over_slices": [
+        0.1222,
+        0.2893
+      ],
+      "uncertain_voxels": 0.032,
+      "thesis_ct_void_fraction": 0.2133,
+      "lab_total_porosity": 0.44
+    },
+    "LAU-ESPM": {
+      "matrix": 0.3726,
+      "rocks": 0.0852,
+      "pores": 0.5422,
+      "pores_min_max_over_slices": [
+        0.5071,
+        0.6038
+      ],
+      "uncertain_voxels": 0.0822,
+      "thesis_ct_void_fraction": 0.45439999999999997,
+      "lab_total_porosity": 0.36200000000000004
+    },
+    "LAU-ERA": {
+      "matrix": 0.7704,
+      "rocks": 0.0467,
+      "pores": 0.1828,
+      "pores_min_max_over_slices": [
+        0.1455,
+        0.2411
+      ],
+      "uncertain_voxels": 0.0513,
+      "thesis_ct_void_fraction": 0.1741,
+      "lab_total_porosity": 0.42100000000000004
+    },
+    "LAU-OLY": {
+      "matrix": 0.5767,
+      "rocks": 0.1858,
+      "pores": 0.2376,
+      "pores_min_max_over_slices": [
+        0.1682,
+        0.3639
+      ],
+      "uncertain_voxels": 0.0596,
+      "thesis_ct_void_fraction": 0.23129999999999998,
+      "lab_total_porosity": 0.44
+    },
+    "LAU-D2": {
+      "matrix": 0.5205,
+      "rocks": 0.0728,
+      "pores": 0.4066,
+      "pores_min_max_over_slices": [
+        0.255,
+        0.4842
+      ],
+      "uncertain_voxels": 0.0344,
+      "thesis_ct_void_fraction": 0.13849999999999998,
+      "lab_total_porosity": 0.491
+    },
+    "LAU-SIG": {
+      "matrix": 0.8037,
+      "rocks": 0.0348,
+      "pores": 0.1615,
+      "pores_min_max_over_slices": [
+        0.0518,
+        0.2553
+      ],
+      "uncertain_voxels": 0.0589,
+      "thesis_ct_void_fraction": 0.1427,
+      "lab_total_porosity": 0.47100000000000003
+    }
+  },
+  "settings": {
+    "features": "multiscale_basic_features, sigma 1-8, 4 scales",
+    "random_forest": {
+      "n_estimators": 60,
+      "max_depth": 16,
+      "min_samples_leaf": 5,
+      "n_jobs": -1,
+      "random_state": 0
+    },
+    "per_class_training_voxels": 15000,
+    "uncertainty_threshold": 0.7
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "LAU-VTHE": {
+    "pore_peak": 20350,
+    "matrix_peak": 36250,
+    "span": 15900,
+    "pore_noise_sd": 2220
+  },
+  "LAU-ESPM": {
+    "pore_peak": 21150,
+    "matrix_peak": 33250,
+    "span": 12100,
+    "pore_noise_sd": 1608
+  },
+  "LAU-ERA": {
+    "pore_peak": 20750,
+    "matrix_peak": 34050,
+    "span": 13300,
+    "pore_noise_sd": 2303
+  },
+  "LAU-OLY": {
+    "pore_peak": 22550,
+    "matrix_peak": 34550,
+    "span": 12000,
+    "pore_noise_sd": 3009
+  },
+  "LAU-D2": {
+    "pore_peak": 17950,
+    "matrix_peak": 31950,
+    "span": 14000,
+    "pore_noise_sd": 2451
+  },
+  "LAU-SIG": {
+    "pore_peak": 21450,
+    "matrix_peak": 34750,
+    "span": 13300,
+    "pore_noise_sd": 2892
+  }
+}

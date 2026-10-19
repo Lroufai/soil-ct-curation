@@ -1,0 +1,39 @@
+{
+  "common_scale": {
+    "matrix_peak": 34591,
+    "sigma": 2990,
+    "pore_threshold": 25623
+  },
+  "samples": {
+    "LAU-VTHE": {
+      "pores_without_calibration": 0.1975,
+      "pores_with_calibration": 0.1884,
+      "thesis_ct_void_fraction": 0.2133
+    },
+    "LAU-ESPM": {
+      "pores_without_calibration": 0.6069,
+      "pores_with_calibration": 0.5422,
+      "thesis_ct_void_fraction": 0.45439999999999997
+    },
+    "LAU-ERA": {
+      "pores_without_calibration": 0.2262,
+      "pores_with_calibration": 0.1828,
+      "thesis_ct_void_fraction": 0.1741
+    },
+    "LAU-OLY": {
+      "pores_without_calibration": 0.2426,
+      "pores_with_calibration": 0.2376,
+      "thesis_ct_void_fraction": 0.23129999999999998
+    },
+    "LAU-D2": {
+      "pores_without_calibration": 0.4662,
+      "pores_with_calibration": 0.4066,
+      "thesis_ct_void_fraction": 0.13849999999999998
+    },
+    "LAU-SIG": {
+      "pores_without_calibration": 0.1833,
+      "pores_with_calibration": 0.1615,
+      "thesis_ct_void_fraction": 0.1427
+    }
+  }
+}
